@@ -357,8 +357,163 @@
   text-decoration-skip-ink: none;
   text-underline-offset: 4px; /* Điều chỉnh khoảng cách */
 }
-.Policy{
+.Policy-item{
+  height: 80px;
+  width: 335px;
+  background-color: #73BBFE;
+  margin: 15px;
+  border-radius: 5px;
+ 
+  position: relative;
+
+}
+.Policy-item i{
+  position: absolute;
+  top:5%;
+  font-size:70px;
+  color: white;
+}
+.Policy-title{
+  left: 34%;
+  top: 6%;
+  height: 70px;
+  width: 215px;
   display: flex;
+  background-color: white;
+  border-radius: 45px 0px 0px 0px;
+  align-items: center;
+  position: absolute;
+  padding: 10pxs;
+  word-wrap: break-word;
+}
+.Policy-title span{
+  padding-left: 30px;
+  font-size: large;
+  font-weight: bold;
+  color: #F94747;
+}
+#Detail{ 
+  width: 1440px;
+  margin: auto;
+}
+#Detail b{
+  font-size: xx-large;
+}
+#breadcrumb{
+  font-size: larger;
+
+}
+#breadcrumb a{
+  color: rgb(179, 166, 166);
+  text-decoration: none;
+}
+.Product-imgs img{
+  max-width:150px ;
+  max-height: 150px;
+  display: inline-block;
+}
+.Product-imgs{
+  max-width: 460px;
+  margin-top: 20px;
+  display: block;
+}
+.other-product-configuration{
+  max-width: 460px;
+}
+.product-configuration-block{
+  width: 225px;
+  
+  border: 1px solid rgb(231, 231, 231);
+  display: inline-block;
+  min-height: 125px;
+
+  padding-top: 15px;
+  margin-top: 2px;
+  border-radius: 0.3rem;
+  position: relative;
+}
+.product-configuration-block span{
+  font-size: smaller;
+  font-weight: 600;
+}
+.block-content{
+  padding: 10px;
+  display: flex !important;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.block-check{
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+.promotion{
+  border: 1px solid #16c60c;
+  margin-top: 35px;
+  border-radius: 5px;
+  
+}
+.Buy-add-product-to-cart{
+  margin-top: 15px;
+  background-color: #FF4242;
+  border-radius: 5px;
+  height: 90px;
+  text-decoration: none;
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Payemnt-methods{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.Payemnt-methods a{
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.method{
+  height: 72px;
+  width: 224px;
+  background-color: #73BBFE;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.method b{
+  color: white;
+  font-size: large !important;
+}
+.method p{
+  color: white;
+}
+.buy-policies{
+  list-style: none;
+  padding-left: 0 !important;
+  font-size: larger;
+}
+.buy-policies li{
+  margin-bottom: 4px;
+}
+.buying-polici-title{
+  
+  border: 1px solid #f2e6e6;
+  border-radius: 10px;
+}
+.configuration-block-table{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgb(227, 210, 210);
+  border-radius: 10px;
+}
+.configratuion-table td{
+  font-size: medium;
 }
 
