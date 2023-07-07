@@ -14,6 +14,9 @@ app.config(function ($routeProvider, $locationProvider) {
         .when("/sign_up", {
             templateUrl: "sign_up.html"
         })
+        .when("/cart",{
+            templateUrl:"cart.html"
+        })
         .otherwise({
             redirectTo: "/"
 
