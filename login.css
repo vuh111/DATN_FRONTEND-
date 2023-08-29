@@ -1,0 +1,68 @@
+.form-login{
+    border: #4c4949 1px solid; 
+    width: 1087px; 
+    height: 864px; 
+    margin: 65px auto;
+}
+
+.form-control{
+    border-radius: 50px; 
+    width: 718px; 
+    height: 94px; 
+    margin-left: 185px; 
+    font-size: 30px; 
+    padding-left: 24px;
+}
+
+.dangNhap{
+    border-radius: 50px;
+    width: 717px; 
+    height: 110px; 
+    background-color: #73BBFE; 
+    margin-left: 185px; 
+    font-size: 40px; 
+    font-weight: bold; 
+    border: none;
+}
+
+.hr1{
+    width: 287px; 
+    margin-left: 202px;
+}
+
+.hr2{
+    width: 287px; 
+    margin-left: -47px;
+}
+
+.hrText{
+    font-size: 30px; 
+    text-align: center; 
+    color: #968C8C;
+}
+
+.iconBar{
+    margin-top: 40px;
+}
+.icon-google{
+    margin-left: 398px;
+}
+
+.icon-fb{
+    margin-left: 81px;
+}
+
+.icon-zalo{
+    margin-left: 81px;
+}
+
+.chuaCoTK{
+    margin-top: 29px; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+.sign-up{
+    color: #685858; 
+    font-weight: bold;
+}

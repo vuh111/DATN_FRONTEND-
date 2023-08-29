@@ -1,0 +1,25 @@
+.Main{
+    width: 1440px; 
+    margin: auto;
+}
+
+.chonTheoNhuCau{
+    font-weight: 500;
+    font-size: larger; 
+    color: rgb(52, 52, 52);
+}
+
+.item-categories-outer{
+    margin-top: 15px;
+}
+
+.lightning{
+    margin-left: 15px; 
+    color: yellow;
+    transform: rotate(10deg);
+    font-size: 90px;
+}
+
+.see-more{
+    color: rgb(199, 194, 194);
+}

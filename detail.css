@@ -1,0 +1,54 @@
+.Product-main-img{
+    max-width: 460px;
+    max-height: 460px;
+}
+
+.giaKhuyenMai{
+    font-size: xx-large;
+}
+
+.giaGoc{
+    font-size: x-large;
+}
+
+.details{
+    color: rgb(93, 97, 97); 
+    text-decoration: underline;
+}
+
+.giaTien{
+    color: red;
+    font-size: large;
+}
+
+.box_promotion{
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 20px;
+    padding: 6px 15px;
+    color: white;
+    background: #16c60c;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.fa-gift{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.giftBonus{
+    padding-top: 25px;
+    margin-left: 0;
+    padding-left: 25px;
+}
+
+.title-buying-policy{
+    font-size: x-large; 
+    color: rgb(255, 0, 0);
+}
+
+.thongSoKyThuat{
+    margin-left: 5px;
+    color: red;
+}

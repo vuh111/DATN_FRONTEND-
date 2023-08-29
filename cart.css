@@ -1,0 +1,14 @@
+.cart{
+    width: 1440PX; 
+    margin: auto;
+}
+
+.purchase{
+    color: red;
+    font-size: larger;
+}
+
+.transport-Info{
+    width: 620px; 
+    height: 650px;
+}
